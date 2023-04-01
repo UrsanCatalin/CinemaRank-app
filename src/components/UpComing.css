@@ -1,0 +1,44 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card .release-date {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .movie-card {
+      width: 100%;
+    }
+  }
