@@ -13,12 +13,50 @@ body{
 .container {
   width: 100%;
   margin: 1em auto;
-  background-color: rgb(14, 36, 56);
+  background-color: rgb(6, 48, 82);
 }
 .grid{
   display: grid;
   margin-left: .5px;
   grid-template-columns: repeat(4,1fr);
   justify-content: center;
-  color: rgb(89, 88, 87);
+  color: rgb(0, 55, 79);
 }
+
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  color: aliceblue;
+}
+
+.pagination li {
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pagination li.active {
+  font-weight: bold;
+}
+
+.pagination li:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+

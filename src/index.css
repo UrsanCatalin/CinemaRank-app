@@ -74,3 +74,27 @@
 .btn-custom {
   box-shadow: 0px 0px 10px #888888;
 }
+
+
+
+
+/* SearchBar */
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-container input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px #ccc;
+}
